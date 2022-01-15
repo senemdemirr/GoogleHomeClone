@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Arial:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial',sans-serif;
+}
+
+body {
+  background-color: white;
+  margin: 0px auto;
+}
+
+body .top {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  float: right;
+}
+
+body .top a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+  font-size: 15px;
+  top: 15px;
+  right: 5px;
+}
+
+body .middle {
+  position: absolute;
+  top: 26%;
+  left: 41%;
+}
+
+body .middle .imag {
+  width: 275px;
+  height: 95px;
+}
+
+body .middle .inputt {
+  width: 561px;
+  height: 44px;
+  border-radius: 30px;
+  border: 1px solid #dcdcdc;
+  -webkit-box-shadow: 1px 1px 8px 1px #dcdcdc;
+          box-shadow: 1px 1px 8px 1px #dcdcdc;
+  position: relative;
+  right: 27%;
+  top: 29px;
+}
+
+body .middle .inputt .icon {
+  position: relative;
+  left: 15px;
+  margin-right: 3px;
+}
+
+body .middle .inputt input {
+  width: 500px;
+  height: 44px;
+  border-radius: 30px;
+  padding: 15px;
+  border: none;
+}
+
+body .middle .inputt input::-webkit-input-placeholder {
+  font-size: 15px;
+  font-family: 'Arial',sans-serif;
+}
+
+body .middle .inputt input:-ms-input-placeholder {
+  font-size: 15px;
+  font-family: 'Arial',sans-serif;
+}
+
+body .middle .inputt input::-ms-input-placeholder {
+  font-size: 15px;
+  font-family: 'Arial',sans-serif;
+}
+
+body .middle .inputt input::placeholder {
+  font-size: 15px;
+  font-family: 'Arial',sans-serif;
+}
+
+body .middle .inputt input:focus {
+  outline: none;
+}
+
+body .middle .inputt button {
+  border: none;
+}
+
+body .middle .inputt button .microphone {
+  cursor: pointer;
+  font-size: 15px;
+}
+
+body .middle .ara {
+  position: relative;
+  top: 40px;
+  left: -20px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+body .middle .feel {
+  position: relative;
+  top: 40px;
+  height: 40px;
+  width: 200px;
+  border: none;
+  border: 10px;
+  border-radius: 5px;
+}
+
+body .footer {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+}
+
+body .footer button {
+  width: 180px;
+  height: 3px;
+  border-radius: 20px;
+  border: 1px solid #dcdcdc;
+  border: none;
+  -webkit-box-shadow: 1px 1px 8px 1px #dcdcdc;
+          box-shadow: 1px 1px 8px 1px #dcdcdc;
+  color: #1A73E8;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+body .footer button .pencil {
+  margin-left: -10px;
+}
+
+body .footer button span {
+  margin-left: 5px;
+}
+/*# sourceMappingURL=main.css.map */
